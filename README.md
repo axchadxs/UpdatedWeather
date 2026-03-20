@@ -1,29 +1,17 @@
-# UpdatedWeather (React)
+# UpdatedWeather
 
-This project is rebuilt with React using Vite.
+This started as an older weather app and was modernized into a React + Vite project.
 
-## Run locally
+## What we updated
 
-1. Install dependencies:
+- Moved the app to a modern React setup with Vite
+- Added 5-day forecast support
+- Added location auto-detection
+- Added weather alerts (with dismiss support)
+- Added favorites and unit switching (°F/°C)
+- Updated UI layout/styling for a cleaner attached-card forecast design
 
-	npm install
+## What still needs a follow-up
 
-2. Start development server:
+- Dark mode is in place, but it still needs a little polish and bug-fixing to be fully consistent across the UI.
 
-	npm run dev
-
-3. Build for production:
-
-	npm run build
-
-4. Preview production build:
-
-	npm run preview
-
-## API key
-
-The app reads OpenWeatherMap key from:
-
-- `VITE_OWM_API_KEY`
-
-If not set, it falls back to the existing key currently in the code.
