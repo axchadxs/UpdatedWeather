@@ -1,4 +1,4 @@
-# UpdatedWeather
+# UpdatedWeather - http://alex-weather-app.s3-website.us-east-2.amazonaws.com/
 
 This started as an older weather app and was modernized into a React + Vite project.
 
